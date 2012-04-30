@@ -1,19 +1,19 @@
 class String
 
-	def strip_quotes
-		self.gsub('"',"") 
-	end
+  def strip_quotes
+    self.gsub('"',"") 
+  end
 
-	def strip_parentheses
-		self.gsub("(","").gsub(")","")
-	end
+  def strip_parentheses
+    self.gsub("(","").gsub(")","")
+  end
 
-	def strip_carriage_return
+  def strip_carriage_return
     self.gsub('\r',"") 
-	end
+  end
 
-	def strip_new_line
+  def strip_new_line
     self.gsub('\n',"") 
-	end
+  end
 
 end

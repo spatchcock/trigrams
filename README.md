@@ -47,8 +47,8 @@ Generate an excerpt, specifying the desired word count:
 2. Text is initially bootstrapped on the basis of a random two-word phrase (termed a 'duple') found in the training set.
 3. The bootstrap phrase is capitalised.
 4. Quotes ('"'), parentheses ('(', ')') and new lines ('\r','\n') are ignored in the training set.
-5. Full-stops ("."), commas (","), colons (":") and semi-colons (";") are considered to be valid 'words' - that is, they are represented within trigram structures.
-6. In the case that a trigram match is not present within the training set for a given pair of (ordered) tokens, a single match on one of the tokens is used, with the specific trigram used chosen at random from the available matches.
+5. Full-stops ("."), commas (","), colons (":") and semi-colons (";") are considered to be valid 'words' - that is, they are generated according to the trigram rules established by the training set.
+6. In the case that a trigram match is not present within the training set for a given pair of (ordered) tokens, a single match on one of the tokens (in the correct position within the duple) is used, with the specific trigram used chosen at random from the available matches.
 7. Where the final sentence does not end with a full stop, more words are added until a full stop occurs. This means that the actual word count may exceed the desired word count.
 
 

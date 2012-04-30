@@ -31,7 +31,7 @@ Create an instance of Trigram::Excerpt, using the instantiated TrainingSet:
 ```ruby
 
     excerpt = Trigram::Excerpt.new(training_set)
-```ruby
+```
 
 Generate an excerpt, specifying the desired word count:
 

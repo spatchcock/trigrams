@@ -2,11 +2,7 @@
 
 A simple text excerpt generator based on trigram patterns.
 
-Licensed under the BSD 3-Clause license (See LICENSE.txt for details)
-
 Author: Andrew Berkeley
-
-Copyright: Copyright (c) 2012 Andrew Berkeley
 
 ## INTRODUCTION
 
@@ -52,7 +48,22 @@ Generate an excerpt, specifying the desired word count:
 7. Where the final sentence does not end with a full stop, more words are added until a full stop occurs. This means that the actual word count may exceed the desired word count.
 
 
-## TO DO
+## To do
 
 * Improve heuristics around paragraphs, quotes and parentheses.
 
+# License
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program (see the COPYING file).  If not, see
+<http://www.gnu.org/licenses/>.
